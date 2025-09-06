@@ -1,0 +1,32 @@
+/* Basic minimal styling for the project skeleton */
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+  padding:20px;
+}
+.container{max-width:900px;margin:30px auto;background:#fff;padding:24px;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,0.05);}
+h1{margin-top:0;}
+.card{padding:14px;border:1px solid #e6e9ee;border-radius:6px;margin:12px 0;}
+a{color:#1a73e8;text-decoration:none;}
+a:hover{text-decoration:underline;}
+form input, form select {width:100%;padding:8px;margin:6px 0;border:1px solid #ccc;border-radius:4px;}
+button{background:#1a73e8;color:#fff;padding:10px 14px;border:none;border-radius:4px;cursor:pointer;}
+button:hover{opacity:0.95;}
+.notice{padding:8px;background:#eaf5ea;border-left:4px solid #2e7d32;margin-bottom:12px;}
+.error{padding:8px;background:#fdecea;border-left:4px solid #c62828;margin-bottom:12px;}
+
+button {
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #43e97b, #38f9d7);
+}
